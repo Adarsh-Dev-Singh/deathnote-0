@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373869510656",
+    "project_id": "deathnote-0",
+    "storage_bucket": "deathnote-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373869510656:android:9ef558be569febb55758e5",
+        "android_client_info": {
+          "package_name": "com.fire.deathnote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngkdYzNP2OsvF3CUG2SQq5tR37ZTdSNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
