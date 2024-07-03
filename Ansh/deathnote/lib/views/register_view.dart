@@ -1,5 +1,8 @@
+import 'package:deathnote/constants/routes.dart';
+import 'package:deathnote/utilities/show_error_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'dart:developer' as devtools show log;
 
 class RegisterView extends StatefulWidget {
   const RegisterView({super.key});
@@ -41,7 +44,7 @@ class _RegisterViewState extends State<RegisterView> {
                       enableSuggestions: false,
                       autocorrect: false,
                       keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
+                      decoration:const InputDecoration(
                         hintText: 'Enter your email here',
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.email),
@@ -53,7 +56,7 @@ class _RegisterViewState extends State<RegisterView> {
                       obscureText: true,
                       enableSuggestions: false,
                       autocorrect: false,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Enter your password here',
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.lock),
@@ -68,26 +71,31 @@ class _RegisterViewState extends State<RegisterView> {
                           final userCredential = await FirebaseAuth.instance
                               .createUserWithEmailAndPassword(
                                   email: email, password: password);
-                          print(userCredential);
+                          devtools.log(userCredential.toString());
                         } on FirebaseAuthException catch (e) {
                         if(e.code == 'weak-password'){
-                          print('Marial-password bro');
+                         await showErrorDialog(context,'Marial-password bro');
                         }else if(e.code == 'email-already-in-use'){
-                          print('email-already-in-use bro');
+                          await showErrorDialog(context,'email-already-in-use bro');
                         
                         }else if(e.code == 'invalid-email'){
-                          print('invalid-email bro');
+                          await showErrorDialog(context,'invalid-email bro');
                         } else {
-                          print(e.code);
+                          await showErrorDialog(context,e.code);
                         }
+                        }catch(e){
+                          await showErrorDialog(
+                            context,
+                            e.toString(),
+                            );
                         }
                       },
                       child: const Text('Register'),
                     ),
                     TextButton(onPressed: (){
-                      Navigator.of(context).pushNamedAndRemoveUntil('/login/', (route)=>false,);
+                      Navigator.of(context).pushNamedAndRemoveUntil(loginRoute, (route)=>false,);
                     },
-                    child: Text('Already registered? Login Here'),)
+                    child: const Text('Already registered? Login Here'),)
                   ],
                 ),
               )

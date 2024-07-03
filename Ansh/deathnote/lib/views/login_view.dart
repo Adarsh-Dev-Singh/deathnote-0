@@ -1,6 +1,7 @@
+import 'package:deathnote/constants/routes.dart';
+import 'package:deathnote/utilities/show_error_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
 
@@ -40,7 +41,7 @@ class _LoginViewState extends State<LoginView> {
                       enableSuggestions: false,
                       autocorrect: false,
                       keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Enter your email here',
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.email),
@@ -52,7 +53,7 @@ class _LoginViewState extends State<LoginView> {
                       obscureText: true,
                       enableSuggestions: false,
                       autocorrect: false,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Enter your password here',
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.lock),
@@ -64,19 +65,25 @@ class _LoginViewState extends State<LoginView> {
                         final email = _email.text;
                         final password = _password.text;
                         try {
-                          final userCredential = await FirebaseAuth.instance
+                         await FirebaseAuth.instance
                               .signInWithEmailAndPassword(
                                   email: email, password: password);
-                          print(userCredential);
+                       Navigator.of(context)
+                        .pushNamedAndRemoveUntil(notesRoute, (route) => false,);
                         } on FirebaseAuthException catch(e){
                         if(e.code == 'invalid-credential'){
-                            print('Invalid-credential Bro');
+                            await showErrorDialog(context,'Invalid-credential Bro');
                         } else if(e.code == 'wrong-password'){
-                          print('wrong password');
+                          await showErrorDialog(context,'wrong password');
                         } else{
-                          print('SomeThing Happened!!!');
+                          await showErrorDialog(context,e.code);
                         }
                           
+                        }catch(e){
+                          await showErrorDialog(
+                            context,
+                            e.toString(),
+                            );
                         }
                         
                          
@@ -84,9 +91,9 @@ class _LoginViewState extends State<LoginView> {
                       child: const Text('Login'),
                     ),
                     TextButton(onPressed: (){
-                      Navigator.of(context).pushNamedAndRemoveUntil('/register/', (route)=>false,);
+                      Navigator.of(context).pushNamedAndRemoveUntil(registerRoute, (route)=>false,);
                     },
-                    child: Text('Not registered yet? Register Here'),)
+                    child: const Text('Not registered yet? Register Here'),)
                   ],
                 ),
     )
