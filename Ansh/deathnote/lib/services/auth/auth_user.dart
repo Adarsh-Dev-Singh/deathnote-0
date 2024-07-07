@@ -15,6 +15,10 @@ class AuthUser {
 
   Future<AuthUser> reload() async {
     await _user.reload();
-    return AuthUser.fromFirebase(FirebaseAuth.instance.currentUser!);
+    final refreshedUser = FirebaseAuth.instance.currentUser;
+    if (refreshedUser == null) {
+      throw Exception("User is no longer authenticated");
+    }
+    return AuthUser.fromFirebase(refreshedUser);
   }
 }

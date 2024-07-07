@@ -1,7 +1,7 @@
 import 'package:deathnote/constants/routes.dart';
 import 'package:deathnote/services/auth/auth_exceptions.dart';
 import 'package:deathnote/services/auth/auth_service.dart';
-import 'package:deathnote/utilities/show_error_dialog.dart';
+import 'package:deathnote/utilities/dialog/error_dialog.dart';
 import 'package:flutter/material.dart';
 class RegisterView extends StatefulWidget {
   const RegisterView({super.key});
