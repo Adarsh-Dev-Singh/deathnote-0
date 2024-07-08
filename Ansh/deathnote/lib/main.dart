@@ -4,7 +4,7 @@ import 'package:deathnote/views/login_view.dart';
 import 'package:deathnote/views/register_view.dart';
 import 'package:deathnote/views/verify_email_view.dart';
 import 'package:deathnote/views/notes/notes_view.dart';
-import 'package:deathnote/views/notes/new_notes_view.dart';
+import 'package:deathnote/views/notes/create_update_notes_view.dart';
 import 'package:deathnote/services/auth/auth_service.dart';
 
 void main() {
@@ -22,7 +22,7 @@ void main() {
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
         verifyEmailRoute: (context) => const VerifyEmailView(),
-        newNoteRoute: (context) => const NewNotesView(),
+        createOrUpdateNoteRoute: (context) => const CreateUpdateNoteView(),
       },
     ),
   );
