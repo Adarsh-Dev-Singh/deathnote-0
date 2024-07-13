@@ -1,6 +1,5 @@
 import Flutter
 import UIKit
-
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
   override func application(

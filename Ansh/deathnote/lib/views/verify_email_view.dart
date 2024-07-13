@@ -1,7 +1,10 @@
-import 'package:deathnote/constants/routes.dart';
+// import 'package:deathnote/main.dart';
 import 'package:deathnote/services/auth/auth_service.dart';
 import 'package:deathnote/services/auth/auth_user.dart';
+import 'package:deathnote/services/auth/bloc/auth_bloc.dart';
+import 'package:deathnote/services/auth/bloc/auth_event.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class VerifyEmailView extends StatefulWidget {
   const VerifyEmailView({super.key});
@@ -24,10 +27,9 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
       await user.reload();
       user = AuthService.firebase().currentUser;
       if (user?.isEmailVerified ?? false) {
-        Navigator.of(context).pushNamedAndRemoveUntil(
-          notesRoute,
-          (route) => false,
-        );
+        context.read<AuthBloc>().add(
+                       const AuthEventInitialize(),
+                      );
         break;
       }
     }
@@ -51,6 +53,7 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 20),
@@ -58,13 +61,16 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
                 "Haven't received the verification email yet? Press the button below.",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 14,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () async {
-                  AuthService.firebase().sendEmailVerification();
+                  context.read<AuthBloc>().add(
+                        const AuthEventSendEmailVerification(),
+                      );
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(
@@ -79,11 +85,9 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
               ),
               ElevatedButton(
                 onPressed: () async {
-                  await AuthService.firebase().logOut();
-                  Navigator.of(context).pushNamedAndRemoveUntil(
-                    registerRoute,
-                    (route) => false,
-                  );
+                  context.read<AuthBloc>().add(
+                        const AuthEventLogOut(),
+                      );
                 },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(

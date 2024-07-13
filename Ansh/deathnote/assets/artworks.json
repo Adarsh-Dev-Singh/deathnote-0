@@ -1,0 +1,128 @@
+[
+  {
+      "art_id": 1,
+      "title": "Aurora Lion",
+      "description": "A famous painting by Vincent van Gogh, featuring a majestic lion illuminated in the aurora.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/sher.jpg?alt=media&token=4e6d604e-cbc7-4e31-bb7e-60688d77e7a3",
+      "price": 25000,
+      "artist_name": "Arunima_Wazir",
+      "art_style": "zentangle_animals"
+  },
+  {
+      "art_id": 2,
+      "title": "The Elephant of Bastille",
+      "description": "A stunning illustration of an elephant, blending zentangle patterns with distinctive facial features.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/haathi.jpg?alt=media&token=c55cda51-b0eb-4a83-8b14-87c11dd310ed",
+      "price": 30000,
+      "artist_name": "Arunima_Wazir",
+      "art_style": "zentangle_animals"
+  },
+  {
+      "art_id": 3,
+      "title": "Starry Night Peacock",
+      "description": "An exquisite rendition of a peacock, incorporating zentangle patterns and striking facial elements.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/mor.jpg?alt=media&token=a72f5382-61b3-4970-b712-308c1061c3b6",
+      "price": 9500000,
+      "artist_name": "Arunima_Wazir",
+      "art_style": "zentangle_animals"
+  },
+  {
+      "art_id": 4,
+      "title": "Cosmic Glare",
+      "description": "A vibrant portrayal of cosmic themes, blending intricate patterns and vivid animal forms.",
+      "url_to_image": "https://cdn.shopify.com/s/files/1/0615/3814/0311/files/H6pzWuXHch.jpg?v=1720009938",
+      "price": 9500000,
+      "artist_name": "Purva_Tenani",
+      "art_style": "Kalamkari"
+  },
+  {
+      "art_id": 5,
+      "title": "Mosiqui",
+      "description": "An artistic fusion of zentangle patterns and animal features, creating unique and captivating illustrations.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/mosiqui.jpg?alt=media&token=5d010a83-8160-4f66-a0d2-01ce4ec0e1da",
+      "price": 950000,
+      "artist_name": "Purva_Tenani",
+      "art_style": "Kalamkari"
+  },
+  {
+      "art_id": 6,
+      "title": "Hanuman in Kalamkari",
+      "description": "A representation of divine light through intricate patterns and detailed animal features.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/hanuman.jpg?alt=media&token=3ace2e9d-ef8c-486e-86ac-90f283c2efe8",
+      "price": 30000,
+      "artist_name": "D_Laxmi_Amma",
+      "art_style": "Kalamkari"
+  },
+  {
+      "art_id": 7,
+      "title": "COPY NINJA 'KAKASHI'",
+      "description": "An anime-inspired artwork featuring Kakashi from Naruto, showcasing intricate details and dynamic style.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/kakashi.jpeg?alt=media&token=7976cac3-c711-4514-9d63-a9ada0b71e10",
+      "price": 5000,
+      "artist_name": "Samarth_Dev_Singh",
+      "art_style": "Anime"
+  },
+  {
+      "art_id": 8,
+      "title": "THØRFIN",
+      "description": "An anime-inspired artwork featuring a powerful character, combining bold lines and dynamic energy.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/goku.jpeg?alt=media&token=df1378d5-4faf-4748-9f36-652e5f8f9557",
+      "price": 21000,
+      "artist_name": "Samarth_Dev_Singh",
+      "art_style": "Anime"
+  },
+  {
+      "art_id": 9,
+      "title": "NOTHING - NEW",
+      "description": "An anime-themed artwork capturing the essence of character design, with intricate patterns and expressive style.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/anime.jpeg?alt=media&token=beda8c44-8d07-4dec-91d3-6b3e28698c47",
+      "price": 500000,
+      "artist_name": "Samarth_Dev_Singh",
+      "art_style": "Anime"
+  },
+  {
+      "art_id": 10,
+      "title": "Babban Sher",
+      "description": "An anime-themed artwork capturing the essence of character design, with intricate patterns and expressive style.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/babban_sher.jpg?alt=media&token=635d735e-7700-4c0f-b3f6-af9eaedbe3af",
+      "price": 500000,
+      "artist_name": "Arunima_Wazir",
+      "art_style": "zentangle_animals"
+  },{
+      "art_id": 11,
+      "title": "Ramayanam in Kalamkari",
+      "description": "The Ramayanam story is a vibrant tableau of epic proportions, where nature intertwines seamlessly with the daily lives of the characters.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ramanayamweb.jpg?alt=media&token=bd196de0-e95f-4c19-848d-64279ef36264",
+      "price": 80000,
+      "artist_name": "D_Laxmi_Amma",
+      "art_style": "Kalamkari"
+  }
+  ,{
+      "art_id": 12,
+      "title": "Tree of Life in Kalamkari",
+      "description": "In D. Lakshmi Amma's enchanting Kalamkari painting, a majestic tree takes center stage, adorned with vibrant flowers, playful squirrels, and regal peacocks perched on its branches.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/treeoflife.jpg?alt=media&token=6023d47c-8161-4671-9344-98046649b2b8",
+      "price": 30000,
+      "artist_name": "D_Laxmi_Amma",
+      "art_style": "Kalamkari"
+  }
+  ,{
+      "art_id": 13,
+      "title": "Ganesh in Kalamkari",
+      "description": "Laxmi D Amma's Kalamkari painting depicting Lord Ganesha is a remarkable fusion of cultural symbolism and natural beauty. Through meticulously crafted details, such as the vibrant colors and intricate patterns",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ganesh.jpg?alt=media&token=f83c3872-8fb6-42a0-ab09-7714431888b9",
+      "price": 40000,
+      "artist_name": "D_Laxmi_Amma",
+      "art_style": "Kalamkari"
+  }
+  ,{
+      "art_id": 14,
+      "title": "Ardhanareshwar in Kalamkari ",
+      "description": "Laxmi D Amma's Kalamkari painting depicting the story of Hanuman is a captivating portrayal that intricately weaves together elements of nature and daily life with the legendary narrative.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ramanayamweb.jpg?alt=media&token=bd196de0-e95f-4c19-848d-64279ef36264",
+      "price": 40000,
+      "artist_name": "D_Laxmi_Amma",
+      "art_style": "Kalamkari"
+  }
+
+]
