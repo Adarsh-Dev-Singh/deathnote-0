@@ -1,20 +1,27 @@
-// lib/views/full_art_view.dart
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:deathnote/services/auth/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:deathnote/models/artwork.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'dart:async'; // Import for Timer
 
-class FullArtView extends StatelessWidget {
+class FullArtView extends StatefulWidget {
   final Artwork artwork;
   final List<Artwork> similarArtworks;
 
   const FullArtView(
       {Key? key, required this.artwork, required this.similarArtworks})
       : super(key: key);
-       Future<void> addToCart(Artwork artwork) async {
-    final user =  AuthService.firebase().currentUser!;
+
+  @override
+  _FullArtViewState createState() => _FullArtViewState();
+}
+
+class _FullArtViewState extends State<FullArtView> {
+  bool _isAddedToCart = false; // Track the button state
+
+  Future<void> addToCart(Artwork artwork) async {
+    final user = AuthService.firebase().currentUser!;
 
     final cartItem = {
       'user_id': user.id,
@@ -28,6 +35,24 @@ class FullArtView extends StatelessWidget {
     };
 
     await FirebaseFirestore.instance.collection('art_cart').add(cartItem);
+  }
+
+  void _handleAddToCart() async {
+    await addToCart(widget.artwork);
+    setState(() {
+      _isAddedToCart = true; // Change button text to "Added to Cart"
+    });
+
+    // Reset button text after 2 seconds
+    Timer(const Duration(seconds: 2), () {
+      setState(() {
+        _isAddedToCart = false; // Revert back to original text
+      });
+    });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('Item added to cart')),
+    );
   }
 
   @override
@@ -56,14 +81,14 @@ class FullArtView extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     image: DecorationImage(
-                      image: NetworkImage(artwork.urlToImage),
+                      image: NetworkImage(widget.artwork.urlToImage),
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  artwork.title,
+                  widget.artwork.title,
                   style: GoogleFonts.righteous(
                     color: Colors.white.withOpacity(0.98),
                     fontSize: 24,
@@ -73,7 +98,7 @@ class FullArtView extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Artist: ${artwork.artistName}',
+                  'Artist: ${widget.artwork.artistName}',
                   style: GoogleFonts.lato(
                     color: Colors.white,
                     fontSize: 14,
@@ -81,7 +106,7 @@ class FullArtView extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Price: \$${artwork.price}',
+                  'Price: \$${widget.artwork.price}',
                   style: GoogleFonts.lato(
                     color: Colors.white,
                     fontSize: 14,
@@ -90,7 +115,7 @@ class FullArtView extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  artwork.description,
+                  widget.artwork.description,
                   textAlign: TextAlign.center,
                   style: GoogleFonts.lato(
                     color: Colors.white,
@@ -121,8 +146,7 @@ class FullArtView extends StatelessWidget {
                 _buildDetailItem('Surface', 'Canvas Board'),
                 _buildDetailItem('Artwork', 'Original'),
                 _buildDetailItem('Created in', '2024'),
-                _buildDetailItem(
-                    'Quality', 'Museum Quality - 100% Hand-painted'),
+                _buildDetailItem('Quality', 'Museum Quality - 100% Hand-painted'),
                 _buildDetailItem('To be delivered as', 'Box'),
                 _buildDetailItem('Artist Sign and Certificate Provided', 'Yes'),
                 const SizedBox(height: 16),
@@ -153,9 +177,7 @@ class FullArtView extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
                 ElevatedButton(
-                  onPressed: () async {
-                    await addToCart(artwork);
-                  },
+                  onPressed: _handleAddToCart,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white.withOpacity(0.95),
                     shape: RoundedRectangleBorder(
@@ -164,9 +186,9 @@ class FullArtView extends StatelessWidget {
                     elevation: 5,
                     shadowColor: Colors.white.withOpacity(0.125),
                   ),
-                  child: const Text(
-                    'ADD TO CART',
-                    style: TextStyle(
+                  child: Text(
+                    _isAddedToCart ? 'Added to Cart' : 'ADD TO CART',
+                    style: const TextStyle(
                       fontSize: 14,
                       letterSpacing: 1,
                     ),
@@ -194,9 +216,9 @@ class FullArtView extends StatelessWidget {
                   height: 200,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: similarArtworks.length,
+                    itemCount: widget.similarArtworks.length,
                     itemBuilder: (context, index) {
-                      final similarArtwork = similarArtworks[index];
+                      final similarArtwork = widget.similarArtworks[index];
                       return GestureDetector(
                         onTap: () {
                           Navigator.push(
@@ -204,7 +226,7 @@ class FullArtView extends StatelessWidget {
                             MaterialPageRoute(
                               builder: (context) => FullArtView(
                                 artwork: similarArtwork,
-                                similarArtworks: similarArtworks,
+                                similarArtworks: widget.similarArtworks,
                               ),
                             ),
                           );

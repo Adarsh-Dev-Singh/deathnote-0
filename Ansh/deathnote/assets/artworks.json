@@ -4,7 +4,7 @@
       "title": "Aurora Lion",
       "description": "A famous painting by Vincent van Gogh, featuring a majestic lion illuminated in the aurora.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/sher.jpg?alt=media&token=4e6d604e-cbc7-4e31-bb7e-60688d77e7a3",
-      "price": 25000,
+      "price": 2550,
       "artist_name": "Arunima_Wazir",
       "art_style": "zentangle_animals"
   },
@@ -13,7 +13,7 @@
       "title": "The Elephant of Bastille",
       "description": "A stunning illustration of an elephant, blending zentangle patterns with distinctive facial features.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/haathi.jpg?alt=media&token=c55cda51-b0eb-4a83-8b14-87c11dd310ed",
-      "price": 30000,
+      "price": 3550,
       "artist_name": "Arunima_Wazir",
       "art_style": "zentangle_animals"
   },
@@ -22,7 +22,7 @@
       "title": "Starry Night Peacock",
       "description": "An exquisite rendition of a peacock, incorporating zentangle patterns and striking facial elements.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/mor.jpg?alt=media&token=a72f5382-61b3-4970-b712-308c1061c3b6",
-      "price": 9500000,
+      "price": 9550,
       "artist_name": "Arunima_Wazir",
       "art_style": "zentangle_animals"
   },
@@ -30,8 +30,8 @@
       "art_id": 4,
       "title": "Cosmic Glare",
       "description": "A vibrant portrayal of cosmic themes, blending intricate patterns and vivid animal forms.",
-      "url_to_image": "https://cdn.shopify.com/s/files/1/0615/3814/0311/files/H6pzWuXHch.jpg?v=1720009938",
-      "price": 9500000,
+      "url_to_image": "https://cdn.shopify.com/s/files/1/0615/3814/0311/files/H6pzWuXHch.jpg?v=172509938",
+      "price": 9550,
       "artist_name": "Purva_Tenani",
       "art_style": "Kalamkari"
   },
@@ -40,7 +40,7 @@
       "title": "Mosiqui",
       "description": "An artistic fusion of zentangle patterns and animal features, creating unique and captivating illustrations.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/mosiqui.jpg?alt=media&token=5d010a83-8160-4f66-a0d2-01ce4ec0e1da",
-      "price": 950000,
+      "price": 9550,
       "artist_name": "Purva_Tenani",
       "art_style": "Kalamkari"
   },
@@ -49,7 +49,7 @@
       "title": "Hanuman in Kalamkari",
       "description": "A representation of divine light through intricate patterns and detailed animal features.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/hanuman.jpg?alt=media&token=3ace2e9d-ef8c-486e-86ac-90f283c2efe8",
-      "price": 30000,
+      "price": 3500,
       "artist_name": "D_Laxmi_Amma",
       "art_style": "Kalamkari"
   },
@@ -58,7 +58,7 @@
       "title": "COPY NINJA 'KAKASHI'",
       "description": "An anime-inspired artwork featuring Kakashi from Naruto, showcasing intricate details and dynamic style.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/kakashi.jpeg?alt=media&token=7976cac3-c711-4514-9d63-a9ada0b71e10",
-      "price": 5000,
+      "price": 55000,
       "artist_name": "Samarth_Dev_Singh",
       "art_style": "Anime"
   },
@@ -67,7 +67,7 @@
       "title": "THØRFIN",
       "description": "An anime-inspired artwork featuring a powerful character, combining bold lines and dynamic energy.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/goku.jpeg?alt=media&token=df1378d5-4faf-4748-9f36-652e5f8f9557",
-      "price": 21000,
+      "price": 21500,
       "artist_name": "Samarth_Dev_Singh",
       "art_style": "Anime"
   },
@@ -76,7 +76,7 @@
       "title": "NOTHING - NEW",
       "description": "An anime-themed artwork capturing the essence of character design, with intricate patterns and expressive style.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/anime.jpeg?alt=media&token=beda8c44-8d07-4dec-91d3-6b3e28698c47",
-      "price": 500000,
+      "price": 55500,
       "artist_name": "Samarth_Dev_Singh",
       "art_style": "Anime"
   },
@@ -85,7 +85,7 @@
       "title": "Babban Sher",
       "description": "An anime-themed artwork capturing the essence of character design, with intricate patterns and expressive style.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/babban_sher.jpg?alt=media&token=635d735e-7700-4c0f-b3f6-af9eaedbe3af",
-      "price": 500000,
+      "price": 5540,
       "artist_name": "Arunima_Wazir",
       "art_style": "zentangle_animals"
   },{
@@ -93,7 +93,7 @@
       "title": "Ramayanam in Kalamkari",
       "description": "The Ramayanam story is a vibrant tableau of epic proportions, where nature intertwines seamlessly with the daily lives of the characters.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ramanayamweb.jpg?alt=media&token=bd196de0-e95f-4c19-848d-64279ef36264",
-      "price": 80000,
+      "price": 8450,
       "artist_name": "D_Laxmi_Amma",
       "art_style": "Kalamkari"
   }
@@ -102,7 +102,7 @@
       "title": "Tree of Life in Kalamkari",
       "description": "In D. Lakshmi Amma's enchanting Kalamkari painting, a majestic tree takes center stage, adorned with vibrant flowers, playful squirrels, and regal peacocks perched on its branches.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/treeoflife.jpg?alt=media&token=6023d47c-8161-4671-9344-98046649b2b8",
-      "price": 30000,
+      "price": 3450,
       "artist_name": "D_Laxmi_Amma",
       "art_style": "Kalamkari"
   }
@@ -111,7 +111,7 @@
       "title": "Ganesh in Kalamkari",
       "description": "Laxmi D Amma's Kalamkari painting depicting Lord Ganesha is a remarkable fusion of cultural symbolism and natural beauty. Through meticulously crafted details, such as the vibrant colors and intricate patterns",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ganesh.jpg?alt=media&token=f83c3872-8fb6-42a0-ab09-7714431888b9",
-      "price": 40000,
+      "price": 4500,
       "artist_name": "D_Laxmi_Amma",
       "art_style": "Kalamkari"
   }
@@ -120,9 +120,235 @@
       "title": "Ardhanareshwar in Kalamkari ",
       "description": "Laxmi D Amma's Kalamkari painting depicting the story of Hanuman is a captivating portrayal that intricately weaves together elements of nature and daily life with the legendary narrative.",
       "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ramanayamweb.jpg?alt=media&token=bd196de0-e95f-4c19-848d-64279ef36264",
-      "price": 40000,
+      "price": 4550,
       "artist_name": "D_Laxmi_Amma",
       "art_style": "Kalamkari"
+  }
+  ,{
+      "art_id": 15,
+      "title": "Gopashtami Pichwai Painting",
+      "description": "Renowned artist Dinesh Soni's Pichwai Painting, Gopashtami, is a mesmerizing visual ode to the festival celebrating the profound connection between Lord Krishna and his beloved cows. In this exquisitely detailed piece, Soni captures the essence of Gopashtami, the day when Krishna officially embraced his role as a cowherd or Gowala",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/dinesh_soni%2FGopashtami%20Pichwai%20Painting%20by%20Dinesh%20Soni.jpg?alt=media&token=a7e02f07-9f63-4dff-9f42-a835eaee8229",
+      "price": 2850,
+      "artist_name": "Dinesh_Soni",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 16,
+      "title": "Kamadhenu Kalam Talai",
+      "description": "Renowned artist Dinesh Soni's Pichwai piece, Kamadhenu with Kalam Talai,beautifully captures the essence of divine art. This enchanting piece pays homage to Kamadhenu, the celestial cow, revered for her association with fertility and purity, symbolizing prosperity and success",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/dinesh_soni%2FKamadhenu%20Kalam%20Talai%20Pichwai%20Painting.jpg?alt=media&token=6f72ea1c-e068-4c86-96eb-5d4553a0327c",
+      "price": 2250,
+      "artist_name": "Dinesh_Soni",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 17,
+      "title": "Raja Sawant Singh",
+      "description": "Drenched in vibrant hues, the Pichwai painting by artist Dinesh Soni unveils the legacy of Raja Savant Singh's profound devotion to Lord Krishna. After his abdication, Savant Singh sought solace in Vrindavan, the sacred land of Krishna and Radha, accompanied by his beloved Bani Thani.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/dinesh_soni%2FRaja%20Savant%20Singh%20in%20Pichwai%20Painting.jpg?alt=media&token=d3b988c3-e153-4f82-89ee-46268c7a6b92",
+      "price": 1450,
+      "artist_name": "Dinesh_Soni",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 18,
+      "title": "Melodies of Divinity A Tapestry of Reverance",
+      "description": "Drenched in vibrant hues, the Pichwai painting by artist Dinesh Soni unveils the legacy of Raja Savant Singh's profound devotion to Lord Krishna. After his abdication, Savant Singh sought solace in Vrindavan, the sacred land of Krishna and Radha, accompanied by his beloved Bani Thani.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Melodies%20of%20Divinity%20A%20Tapestry%20of%20Reverance%20Pichwai%20Painting%20by%20Shehzaad%20Ali%20Sherani.jpg?alt=media&token=a03661fd-7ea0-480f-a8a6-a14547389e8b",
+      "price": 1450,
+      "artist_name": "Shehzaad_Ali_Sherani",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 19,
+      "title": "Whispers of Love: Divine Connection",
+      "description": "Shehzaad Ali Sherani portrays the captivating realm of Pichwai art, where the timeless love of Radha and Krishna is beautifully portrayed in a scene that exudes serenity and romance.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Whispers%20of%20Love%20Divine%20Connection.jpg?alt=media&token=39e36c82-9f9c-4595-9b64-5f0f8811b748",
+      "price": 2250,
+      "artist_name": "Shehzaad_Ali_Sherani",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 20,
+      "title": "Nature's Adoration: Pichwai Artistry with Radha and Krishna",
+      "description": "Shehzaad Ali Sherani portrays the enchanting realm of Pichwai art, where the eternal love of Radha and Krishna is brought to life against the backdrop of nature's lush splendor",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Nature's%20Adoration%20Pichwai%20Artistry%20with%20Radha%20and%20Krishna.jpg?alt=media&token=9d448f50-d42a-4652-9fef-480ef8594452",
+      "price": 2150,
+      "artist_name": "Shehzaad_Ali_Sherani",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 21,
+      "title": "Nature's Adoration: Pichwai Artistry with Radha and Krishna",
+      "description": "Shehzaad Ali Sherani portrays the enchanting realm of Pichwai art, where the eternal love of Radha and Krishna is brought to life against the backdrop of nature's lush splendor",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Nature's%20Adoration%20Pichwai%20Artistry%20with%20Radha%20and%20Krishna.jpg?alt=media&token=9d448f50-d42a-4652-9fef-480ef8594452",
+      "price": 2150,
+      "artist_name": "Shehzaad_Ali_Sherani",
+      "art_style": "Pichwai"
+  }
+  ,{
+      "art_id": 22,
+      "title": "A Porcupine in Gond Art Painting",
+      "description": "In Kailash Pradhan's enchanting work titled A Porcupine in Gond the artist skillfully captures the essence of this intriguing creature within the vibrant realm of Gond art. The canvas comes alive with a harmonious blend of vivid colors, intricate patterns, and Pradhan's distinctive cherchera signature.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/kailash_pradhan%2FA%20Porcupine%20in%20Gond%20Art%20Painting.jpg?alt=media&token=63a33310-2518-442f-a4bb-dc1cfa1edf1a",
+      "price": 8100,
+      "artist_name": "Kailash_Pradhan",
+      "art_style": "Gond"
+  }
+  ,{
+      "art_id": 23,
+      "title": "Gond Harmony: Gond art",
+      "description": "In Kailash Pradhan's delightful Gond painting, the charm of simplicity takes center stage as a stout tree becomes the focal point of a whimsical scene. The tree, rendered with bold, flowing lines and adorned with traditional Gond patterns, stands as a symbol of resilience and grounded strength.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/kailash_pradhan%2FGond%20Harmony%20Gond%20art%20by%20Kailash%20Pradhan.jpg?alt=media&token=07014477-a086-4a83-ab30-dfdb211e9d8c",
+      "price": 9500,
+      "artist_name": "Kailash_Pradhan",
+      "art_style": "Gond"
+  }
+  ,{
+      "art_id": 24,
+      "title": "Owl in Gond art",
+      "description": "In this enchanting Gond painting by the skilled hand of Kailash Pradhan, the canvas comes alive with the mystical presence of an owl, rendered in a symphony of vibrant colors and intricate patterns. The scene is a celebration of the nocturnal elegance of the owl and the cultural richness inherent in Gond art.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/kailash_pradhan%2FOWL.jpg?alt=media&token=10dd09f9-94e9-4031-af8b-4b3a3457c2fd",
+      "price": 1800,
+      "artist_name": "Kailash_Pradhan",
+      "art_style": "Gond"
+  }
+  ,{
+      "art_id": 25,
+      "title": "Radha Krishna, Kerala Mural Painting",
+      "description": "Discover the captivating allure of divine love with Adarsh's Kerala Mural painting of Radha-Krishna. Hand-painted to perfection, the painting portrays the divine couple in their eternal togetherness, with Krishna playing the flute while his beloved Radha stands beside him.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Adarsh%2FRadha%20Krishna%20Kerala%20Mural%20Painting.jpg?alt=media&token=e7a45759-711c-4d30-8797-64224e2a6915",
+      "price": 1850,
+      "artist_name": "Adarsh_Kerela",
+      "art_style": "Mural"
+  }
+  ,{
+      "art_id": 26,
+      "title": "A Tree in Kerela Mural",
+      "description": "In Adarsh's mesmerizing Kerala mural painting, a magnificent banyan tree stands as the focal point, surrounded by vibrant flowers against an orange sunset sky. Symbolizing longevity and interconnectedness, the tree's depiction reflects reverence for nature's grandeur.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Adarsh%2FA%20Tree%20in%20Kerala%20Mural.jpg?alt=media&token=948881e1-f433-4633-a1b8-04687e8b33e3",
+      "price": 2150,
+      "artist_name": "Adarsh_Kerela",
+      "art_style": "Mural"
+  }
+  ,{
+      "art_id": 27,
+      "title": "Boating Girl, Kerala Mural Painting by V.M Jijulal",
+      "description": "In V.M. JIJULAL's mesmerizing Kerala mural painting, a magnificent banyan tree stands as the focal point, surrounded by vibrant flowers against an orange sunset sky. Symbolizing longevity and interconnectedness, the tree's depiction reflects reverence for nature's grandeur.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Adarsh%2FBoating%20Girl%2C%20Kerala%20Mural%20Painting.jpg?alt=media&token=e2410692-701e-45a6-b289-024bb5ff3e57",
+      "price": 2750,
+      "artist_name": "V_M_Jijulal",
+      "art_style": "Mural"
+  }
+  ,{
+      "art_id": 28,
+      "title": "Flower Girls, Kerala Mural Painting",
+      "description": "Adarsh's Kerala Mural painting of Flower Girls is a masterpiece that captures the essence of traditional Hindu customs and beliefs. With painstaking attention to detail, the painting depicts two enchanting women adorned with exquisite ornaments, plucking flowers from a lush garden and collecting them in a basket to offer to the deities in the temple.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Adarsh%2FFlower%20Girls%2C%20Kerala%20Mural%20Painting.jpg?alt=media&token=f0aea98a-bde6-47b3-a342-da8db5c5c5bc",
+      "price": 2750,
+      "artist_name": "Adarsh_Kerela",
+      "art_style": "Mural"
+  }
+  ,{
+      "art_id": 29,
+      "title": "Shree Ganesha Kerala Mural Painting By Adarsh",
+      "description": "Adarsh's Kerala Mural painting of Shree Ganesha  is a masterpiece that captures the essence of traditional Hindu customs and beliefs. With painstaking attention to detail.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/priti_karn%2FShree%20Ganesha%20Kerala%20Mural%20Painting%20By%20Adarsh.jpg?alt=media&token=bfef78e6-cb60-4621-889c-710f4e8c3c34",
+      "price": 4750,
+      "artist_name": "Adarsh_Kerela",
+      "art_style": "Mural"
+  }
+
+  ,{
+      "art_id": 30,
+      "title": "Divine union A mythological celebration of Madhubani Art",
+      "description": "The artist showcases the legendary mythological characters of the Ramayana in this Madhubani painting. The painting depicts the ethereal union of two beautiful characters from mythology, Ram and Sita",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/priti_karn%2FDivine%20union%20%E2%80%93%20A%20mythological%20celebration%20of%20Madhubani%20Art%2C.jpg?alt=media&token=08049930-2d3d-4136-87af-ed7ec8e70461",
+      "price": 2150,
+      "artist_name": "Priti_Karn",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 31,
+      "title": "Rahda_Krishna_Madhubani_Art",
+      "description": "Immerse yourself in the enchanting realm of Madhubani art by Priti Karn, where Krishna and Radha come to life in vibrant hues and intricate patterns. This traditional art form, originating from the Mithila region, beautifully captures the divine love and devotion between the celestial couple.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/priti_karn%2Frahda_krishna_madhubani_art.jpg?alt=media&token=0c1bbf34-1bfc-4c3b-b840-998eb54b2507",
+      "price": 4550,
+      "artist_name": "Priti_Karn",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 32,
+      "title": "Nature's Tapestry  A Pink- Flowered Madhubani Tree",
+      "description": "This Madhubani Painting by Ambika Devi unveils a captivating scene—a magnificent tree with long curved branches adorned with delicate, pink-colored flowers.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ambika_devi%2FNature's%20Tapestry%20%20A%20Pink-%20Flowered%20Madhubani%20Tree%2C%20Madhubani%20Painting.jpg?alt=media&token=f26761e7-f805-4fdb-967f-1de6a3e26262",
+      "price": 4599,
+      "artist_name": "Ambika_Devi",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 33,
+      "title": "Vibrant whispers of timber - A tapestry of Madhubani tree",
+      "description": "Ambika Devi's Madhubani painting offers a captivating portrayal of contrasting elements, showcasing the lively nature of birds against the backdrop of a serene and astonishing tree.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/ambika_devi%2FVibrant%20whispers%20of%20timber%20-%20A%20tapestry%20of%20Madhubani%20tree%2C%20Madhubani%20Painting.jpg?alt=media&token=0492b1a2-2e10-489f-8bd6-75636cec5a7a",
+      "price": 4599,
+      "artist_name": "Ambika_Devi",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 34,
+      "title": "DURGA_MADHUBANI",
+      "description": "Also known as Mithila painting due to its origins in the Mithila region of India and Nepal, Madhubani is a traditional Indian folk art made on canvas, cloth or cow dung washed hand paper.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/pratima_bharti%2FDURGA_MADHUBANI.jpg?alt=media&token=d31cb2e3-26a3-475e-8042-5e75b661f362",
+      "price": 5300,
+      "artist_name": "Pratima_Bharti",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 35,
+      "title": "LORD_GANESHA_MADHUBANI",
+      "description": "Pratima Bharti, our Madhubani artist has evolved a very distinctive style of Madhubani art where modern lines and geometric figures meet the traditional patterns of Madhubani art.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/pratima_bharti%2FLORD_GANESHA_MADHUBANI.jpg?alt=media&token=a5d8b83b-7b43-4eab-86a7-0af4afb7b134",
+      "price": 6700,
+      "artist_name": "Pratima_Bharti",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 36,
+      "title": "MANDALA_GODHANA",
+      "description": "Pratima Bharti, our Madhubani artist has evolved a very distinctive style of Madhubani art where modern lines and geometric figures meet the traditional patterns of Madhubani art.",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/pratima_bharti%2FMANDALA_GODHANA_.jpg?alt=media&token=53398800-b12e-4346-806f-bc45e04d0a4d",
+      "price": 8600,
+      "artist_name": "Pratima_Bharti",
+      "art_style": "Madhubani"
+  }
+  ,{
+      "art_id": 37,
+      "title": "Pattachitra Chronicles: Krishna's Raas-Leela by Purusottam Swain  ",
+      "description": "Purusottam Swain portrays the divine Raas-leela with his beloved gopis in the mystical forests of Vrindavan.At the heart of this artwork stands Lord Krishna, the divine lover, and his enchanting dance with the gopis amidst the ethereal beauty of Vrindavan's forests",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Purusottam_Swain%5C%2FPurusottam%20Swain%20portrays%20the%20divine%20Raas-leela.jpg?alt=media&token=2d295bd9-d957-4a5c-80a7-a6c7797a7fb0",
+      "price": 7650,
+      "artist_name": "Purusottam_Swain",
+      "art_style": "Pattachitra"
+  }
+  ,{
+      "art_id": 38,
+      "title": " Bal Gopal's portrayal",
+      "description": "Purusottam Swain portrays the charming world of Lord Krishna in his playful and mischievous form as Bal Gopal. This endearing artwork captures the innocence and joy of childhood",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Purusottam_Swain%5C%2FBal%20Gopal's%20portrayal%20by%20Purusottam%20Swain.jpg?alt=media&token=357853fc-24ed-406d-a59e-2bcfc79a45ba",
+      "price": 3650,
+      "artist_name": "Purusottam_Swain",
+      "art_style": "Pattachitra"
+  }
+  ,{
+      "art_id": 39,
+      "title": "Krishna Leela Pattachitra",
+      "description": "Purusottam Swain paints episodes of Krishna Leela in this Pattachitra. Krishna Leela refers to the playful and divine activites of Lord Krishna he performed on earth. The intricate details and the ornate designs depict Krishna with Gopis as other sections of the painting unfold the narrative of Krishna's life story, by showcasing his childhood antics, his youthful love, his battle with the demon and his role in the epic battle of Mahabharata",
+      "url_to_image": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Purusottam_Swain%5C%2FKrishnaLeelaPattachitraPaintingbyPurusottamSwain_5_900x.jpg?alt=media&token=8549b8e1-5ce4-4221-8de5-b4b6299fd6bc",
+      "price": 33250,
+      "artist_name": "Purusottam_Swain",
+      "art_style": "Pattachitra"
   }
 
 ]

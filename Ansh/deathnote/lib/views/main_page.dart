@@ -1,6 +1,5 @@
-// lib/views/main_page.dart
-
 import 'package:flutter/material.dart';
+import 'package:deathnote/views/home_page.dart'; // Make sure to import the correct HomePage file
 import 'package:deathnote/views/art_view.dart';
 import 'package:deathnote/pages/artists_info_page.dart';
 import 'package:deathnote/pages/map_view_page.dart';
@@ -17,9 +16,10 @@ class _MainPageState extends State<MainPage> {
   Menus currentIndex = Menus.home;
 
   final pages = [
+     HomePage(), 
     const ArtView(),
     const MapViewPage(),
-    ArtistsInfoPage(),
+    const ArtistsInfoPage(),
     ProfilePage(),
   ];
 
@@ -42,6 +42,7 @@ class _MainPageState extends State<MainPage> {
 
 enum Menus {
   home,
+  random,
   map,
   artists,
   profile,
@@ -86,13 +87,20 @@ class MyBottomNavigation extends StatelessWidget {
                   ),
                   Expanded(
                     child: BottomNavigationItem(
+                      onPressed: () => onTap(Menus.random),
+                      icon: Icons.art_track,
+                      current: currentIndex,
+                      name: Menus.random,
+                    ),
+                  ),
+                  Expanded(
+                    child: BottomNavigationItem(
                       onPressed: () => onTap(Menus.map),
                       icon: Icons.map,
                       current: currentIndex,
                       name: Menus.map,
                     ),
                   ),
-                  
                   Expanded(
                     child: BottomNavigationItem(
                       onPressed: () => onTap(Menus.artists),

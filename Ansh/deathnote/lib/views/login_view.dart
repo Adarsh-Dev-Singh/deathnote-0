@@ -77,7 +77,9 @@ class _LoginViewState extends State<LoginView> {
                     fontSize: 18,
                     color: Colors.white,
                   ),
+                  
                   decoration: const InputDecoration(
+                     hintStyle: TextStyle(color: Colors.white),
                     hintText: 'Enter your email here',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(
@@ -97,6 +99,7 @@ class _LoginViewState extends State<LoginView> {
                   enableSuggestions: false,
                   autocorrect: false,
                   decoration: const InputDecoration(
+                     hintStyle: TextStyle(color: Colors.white),
                     hintText: 'Enter your password here',
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(

@@ -67,6 +67,7 @@ class _RegisterViewState extends State<RegisterView> {
                   keyboardType: TextInputType.emailAddress,
                   decoration: const InputDecoration(
                     hintText: 'Enter your email here',
+                     hintStyle: TextStyle(color: Colors.white),
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(
                       Icons.email,
@@ -86,6 +87,7 @@ class _RegisterViewState extends State<RegisterView> {
                   ),
                   decoration: const InputDecoration(
                     hintText: 'Enter your password here',
+                     hintStyle: TextStyle(color: Colors.white),
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(
                       Icons.lock,

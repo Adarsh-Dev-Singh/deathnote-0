@@ -23,14 +23,86 @@
       "Latitude": 32.917720,
       "Longitude": 74.737486,
       "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2FSamarth_Dev_Singh.jpeg?alt=media&token=6cd52165-50df-4ed1-895b-0e9cc30e88f3"
-    },
-    {
+    }
+    ,{
       "artist_id": 103,
       "artist_name": "D_Laxmi_Amma",
       "artist_description": "D. Lakshmi Amma is a rare example of a woman working in the traditionally male-dominated field of Kalamkari, while the women handle the washing and drying. Her work speaks volumes about her passion and sense of poetry. Her artistic talent has been aptly recognized by numerous awards, including a State Award.",
       "Latitude": 14.907720,
       "Longitude": 79.137486,
       "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fd_laxmi.jpg?alt=media&token=de80f053-364e-4479-b83b-4187d5520764"
+    }
+    ,{
+      "artist_id": 104,
+      "artist_name": "Dinesh_Soni",
+      "artist_description": "Experience the enchanting world of Pichwai art through Dinesh Soni, a third-generation artist hailing from Bhilwara. He inherited this cherished art form from his grandfather, the renowned Badrilal Chitrakar, and his father, the award-winning Prabhulal. With over three decades dedicated to painting and teaching Pichwai, Dinesh Soni is a true master.",
+      "Latitude": 25.347720,
+      "Longitude": 74.637486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fdinesh_soni.jpg?alt=media&token=2322ac52-089d-43b2-8843-d83ad1b4771b"
+    }
+    ,{
+      "artist_id": 105,
+      "artist_name": "Shehzaad_Ali_Sherani",
+      "artist_description": "Shehzaad Ali Sherani is a highly esteemed artist hailing from the artistic town of Kishangarh. His dedication and mastery in the realm of Pichwai and Kishangarh art have earned him numerous accolades, including the prestigious State Award and the Rajasthan Lalit Kala Academi Commendation certificate.",
+      "Latitude": 26.587720,
+      "Longitude": 74.857486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fshehzad-ali-sherani-pichwai-artist-837858.jpg?alt=media&token=927dfaa1-eea1-4574-8fee-49d9e247e657"
+    }
+    ,{
+      "artist_id": 106,
+      "artist_name": "Kailash_Pradhan",
+      "artist_description": "Kailash Pradhan is a dedicated practitioner of Gond art, with a rich artistic journey spanning 15 years. He acquired this traditional art form under the tutelage of his uncle, honing his skills and developing a distinctive style.",
+      "Latitude": 21.257720,
+      "Longitude": 81.627486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fkailash-pradhan-393514.jpg?alt=media&token=30a01ac6-5ca4-4f78-a078-ac523b42fc90"
+    }
+    ,{
+      "artist_id": 107,
+      "artist_name": "Adarsh_Kerela",
+      "artist_description": "Adarsh's artistic odyssey commenced as he delved into the captivating world of Kerala Mural painting under Guruvayur's guidance from 2003 to 2008. Transforming into an art conservation champion, he ardently collaborated with governmental entities and UNESCO to safeguard Kerala's exquisite mural heritage, ensuring its legacy endures. Spanning the golden era of the 15th to 19th centuries, these murals, characterized by their distinctive techniques and aesthetic allure, embody a fusion of natural beauty, elegance, and profound devotion—a testament to Adarsh's dedication in preserving the cultural tapestry of Kerala through his artistic endeavors.",
+      "Latitude": 9.437720,
+      "Longitude": 76.617486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fadarsh-310550.jpg?alt=media&token=03b50d28-b3d0-4a58-b27d-8145378a5d84"
+    }
+    ,{
+      "artist_id": 108,
+      "artist_name": "V_M_Jijulal",
+      "artist_description": "Renowned artist V.M. Jijulal's Kerala Mural Painting beautifully captures the essence of Art",
+      "Latitude": 8.82720,
+      "Longitude": 76.877486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fplaceholder_image.webp?alt=media&token=5100d0fe-c4af-4342-b333-4a6cb6b40a25"
+    }
+    ,{
+      "artist_id": 109,
+      "artist_name": "Priti_Karn",
+      "artist_description": "Dive into the enchanting realm of creativity with Priti Karn, a spirited Madhubani artist hailing from Bihar, India. With three decades of artistic mastery, Priti has adorned canvases with vibrant tales. Beyond Madhubani, she's ventured into Godhana Art, Paper Mache, and crafting natural pigments, spreading her creative fervor across India through captivating workshops.",
+      "Latitude": 25.72720,
+      "Longitude": 86.147486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fpriti-karn-608010.jpg?alt=media&token=47ee8a3d-0d96-47be-acda-4f4084e3ad05"
+    }
+    ,{
+      "artist_id": 109,
+      "artist_name": "Ambika_Devi",
+      "artist_description": "Step into the enchanting world of Ambika Devi, a celebrated Madhubani artist from Rashidpur, Bihar. With a passion ignited at the tender age of 12 under her mother's guidance, she continues the centuries-old tradition within the modern confines of her home. Ambika's artistic prowess shines through her mastery of 'Line Work,' a captivating facet of Madhubani Painting characterized by a mesmerizing dance of only two colors - red and black. While her canvas extends to walls and vibrant palettes, her heart beats for the intricate and laboriously rewarding world of line work. Her artistry isn't confined to Bihar; it's a bridge to the world, as evidenced by her participation in 'Kala Sangam,' where she met Prime Minister Narendra Modi and garnered acclaim for her fearless journey to Singapore. ",
+      "Latitude": 26.42720,
+      "Longitude": 86.127486,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fambika-devi-568069.jpg?alt=media&token=04091476-98cb-4d67-bff1-e5e09c039e05"
+    }
+    ,{
+      "artist_id": 110,
+      "artist_name": "Pratima_Bharti",
+      "artist_description": "Pratima Bharti, our Madhubani artist has evolved a very distinctive style of Madhubani art where modern lines and geometric figures meet the traditional patterns of Madhubani art. She is the recipient of the state award for art.",
+      "Latitude": 28.61720,
+      "Longitude": 77.19786,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2Fdk-pratima-bharti-265710.jpg?alt=media&token=a5f106c5-d323-4020-8d78-3e689ff802dc"
+    }
+    ,{
+      "artist_id": 111,
+      "artist_name": "Purusottam_Swain",
+      "artist_description": "Hailing from the village of Raghurajpur (the heritage village of Pattachitra artists), Purusottam Swain is a young 26 year old generational Pattachitra artist who has been painting for the last 40 years since he was in the 4th standard. He has learnt from his father who was also a Pattachitra artist. His work is coveted by patrons across the world, he has received a certificate of appreciation by the Karnataka Chitrakala Parishath and been a part of many events like the Bharat Lok Parv.",
+      "Latitude": 19.88550,
+      "Longitude": 85.8257,
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/deathnote-0.appspot.com/o/Artists%2FScreenshot_2024-04-10_at_11.33.25.jpg?alt=media&token=0c636640-96eb-46e0-b864-5ed33009a74f"
     }
   ]
 }
