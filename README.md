@@ -34,7 +34,6 @@ Artree is a comprehensive e-commerce platform designed to connect local artists 
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/Adarsh-Dev-Singh/deathnote-0
-    cd artree
     ```
 
 2. **Install Dependencies**:
